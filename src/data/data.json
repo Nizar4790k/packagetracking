@@ -1,0 +1,186 @@
+[
+    {
+        "description": "Television 32 pulgadas",
+        "weight": 30,
+        "priceToPay": 2154.2,
+        "supplier": "Amazon",
+        "courier": "USPS",
+        "courierTracking": "USPS123456789",
+        "internalTracking": "NX-U123456789",
+        "statusHistory": [
+            {
+                "description": "Recibido miami",
+                "date": "1/17/2021"
+            },
+            {
+                "description": "Embarcado",
+                "date": "1/18/2021"
+            },
+            {
+                "description": "Recibido AILA",
+                "date": "1/19/2021"
+            },
+            {
+                "description": "Retenido por aduanas",
+                "date": "1/20/2021"
+            }
+        ]
+    },
+    {
+        "description": "iPhone XS",
+        "weight": 1.3,
+        "priceToPay": 1432.1,
+        "supplier": "Apple",
+        "courier": "Fedex",
+        "courierTracking": "Fedex123456789",
+        "internalTracking": "NX-F123456789",
+        "statusHistory": [
+            {
+                "description": "Recibido miami",
+                "date": "1/17/2021"
+            },
+            {
+                "description": "Embarcado",
+                "date": "1/18/2021"
+            },
+            {
+                "description": "Recibido AILA",
+                "date": "1/19/2021"
+            },
+            {
+                "description": "En almacen",
+                "date": "1/20/2021"
+            },
+            {
+                "description": "Disponible para retirar",
+                "date": "1/20/2021"
+            }
+        ]
+    },
+    {
+        "description": "2 camisas y 1 pantalon",
+        "weight": 4,
+        "priceToPay": 624.1,
+        "supplier": "Banana Republic",
+        "courier": "Lasership",
+        "courierTracking": "Lasership123456789",
+        "internalTracking": "NX-L123456789",
+        "statusHistory": [
+            {
+                "description": "Recibido miami",
+                "date": "1/19/2021"
+            }
+        ]
+    },
+    {
+        "description": "1 Laptop",
+        "weight": 5.2,
+        "priceToPay": 6420.1,
+        "supplier": "Dell",
+        "courier": "UPS",
+        "courierTracking": "UPS123456789",
+        "internalTracking": "NX-UP123456789",
+        "statusHistory": [
+            {
+                "description": "Recibido miami",
+                "date": "1/18/2021"
+            },
+            {
+                "description": "Embarcado",
+                "date": "1/19/2021"
+            }
+        ]
+    },
+    {
+        "description": "Television 32 pulgadas - 2",
+        "weight": 30,
+        "priceToPay": 2154.2,
+        "supplier": "Amazon",
+        "courier": "USPS",
+        "courierTracking": "USPS123456789",
+        "internalTracking": "NX-U123456789",
+        "statusHistory": [
+            {
+                "description": "Recibido miami",
+                "date": "1/17/2021"
+            },
+            {
+                "description": "Embarcado",
+                "date": "1/18/2021"
+            },
+            {
+                "description": "Recibido AILA",
+                "date": "1/19/2021"
+            },
+            {
+                "description": "Retenido por aduanas",
+                "date": "1/20/2021"
+            }
+        ]
+    },
+    {
+        "description": "iPhone XS - 2",
+        "weight": 1.3,
+        "priceToPay": 1432.1,
+        "supplier": "Apple",
+        "courier": "Fedex",
+        "courierTracking": "Fedex123456789",
+        "internalTracking": "NX-F123456789",
+        "statusHistory": [
+            {
+                "description": "Recibido miami",
+                "date": "1/17/2021"
+            },
+            {
+                "description": "Embarcado",
+                "date": "1/18/2021"
+            },
+            {
+                "description": "Recibido AILA",
+                "date": "1/19/2021"
+            },
+            {
+                "description": "En almacen",
+                "date": "1/20/2021"
+            },
+            {
+                "description": "Disponible para retirar",
+                "date": "1/20/2021"
+            }
+        ]
+    },
+    {
+        "description": "2 camisas y 1 pantalon - 2",
+        "weight": 4,
+        "priceToPay": 624.1,
+        "supplier": "Banana Republic",
+        "courier": "Lasership",
+        "courierTracking": "Lasership123456789",
+        "internalTracking": "NX-L123456789",
+        "statusHistory": [
+            {
+                "description": "Recibido miami",
+                "date": "1/19/2021"
+            }
+        ]
+    },
+    {
+        "description": "1 Laptop - 2",
+        "weight": 5.2,
+        "priceToPay": 6420.1,
+        "supplier": "Dell",
+        "courier": "UPS",
+        "courierTracking": "UPS123456789",
+        "internalTracking": "NX-UP123456789",
+        "statusHistory": [
+            {
+                "description": "Recibido miami",
+                "date": "1/18/2021"
+            },
+            {
+                "description": "Embarcado",
+                "date": "1/19/2021"
+            }
+        ]
+    }
+]
