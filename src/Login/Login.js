@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import "./Login.css";
@@ -12,15 +13,17 @@ const Login = () => {
         const username= document.getElementById("username").value;
         const password = document.getElementById("password").value;
     
-        
+        axios.post("http://localhost:4000/login",{username,password})
+        .then(response=>{
+
+            if(response.data.success){
+                history.push("/ItemList");
+            }else{
+                alert("User and password may be not correct");
+            }
+
+        });
     
-        if( username==="jsanchez" && password==="123456"){
-            alert("Success!");
-            history.push("/ItemList");
-    
-        }else{
-            alert("Wrong password");
-        }
     
     }
 

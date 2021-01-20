@@ -1,17 +1,35 @@
-import React from 'react';
+import React, { useState,useEffect } from 'react';
 import Item from './Item.js';
-import items from "../data/data.json";
+
 import "./ItemList.css"
+import axios from 'axios';
 
 const ItemList = () => {
     
+   const [items,setItems] = useState([]); //setState
+
+    const getItems = async() =>{
+
+        await axios.get("http://localhost:4000/packages/jsanchez")
+    .then(response=>setItems(response.data))
+
+    }
+
+
+
+   //ComponentDitMount
+    useEffect(()=>{
+        getItems();
+        
+    },[])
+
     return (
        
         <div className="container">
             <h1 className=".col-12">Recieved Items</h1>
             <br></br>
-            <table className="table table-responsive center .col-12">
-                <thead>
+            <table className="table table-responsive center .col-12 table-hover">
+                <thead className="thead-dark">
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">description</th>
@@ -42,6 +60,20 @@ const ItemList = () => {
     );
 
 }
+
+
+async function getItems() {
+
+  
+    await axios.get("http://localhost:4000/packages/jsanchez")
+    .then(response)
+  
+   
+    
+    
+      
+  
+  }
 
 
 export default ItemList;
