@@ -7,7 +7,7 @@ const Item = (props) => {
     return (
         
         <tr>
-            <td>{id}</td>
+            <td><b>{id}</b></td>
             <td>{item.description}</td>
             <td>{item.weight}</td>
             <td>{item.supplier}</td>

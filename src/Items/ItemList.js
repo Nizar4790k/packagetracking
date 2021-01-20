@@ -1,14 +1,16 @@
 import React from 'react';
 import Item from './Item.js';
 import items from "../data/data.json";
-
+import "./ItemList.css"
 
 const ItemList = () => {
     
     return (
        
-        <div>
-            <table className="table">
+        <div className="container">
+            <h1 className=".col-12">Recieved Items</h1>
+            <br></br>
+            <table className="table table-responsive center .col-12">
                 <thead>
                     <tr>
                         <th scope="col">#</th>
